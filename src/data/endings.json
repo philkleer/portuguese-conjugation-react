@@ -1,28 +1,54 @@
+// all tenses without compostos (build via participio e auxiliar)
 {
-  "presente": {
-    "ar": ["o","as","a","amos","ais","am"],
-    "er": ["o","es","e","emos","eis","em"],
-    "ir": ["o","es","e","imos","is","em"]
+  "indicativo": {
+    "presente": {
+      "ar": ["o", "as", "a", "amos", "ais", "am"],
+      "er": ["o", "es", "e", "emos", "eis", "em"],
+      "ir": ["o", "es", "e", "imos", "is", "em"]
+    },
+    "preterito_perfeito": {
+      "ar": ["ei", "aste", "ou", "amos", "astes", "aram"],
+      "er": ["i", "este", "eu", "emos", "estes", "eram"],
+      "ir": ["i", "iste", "iu", "imos", "istes", "iram"]
+    },
+    "preterito_imperfeito": {
+      "ar": ["ava", "avas", "ava", "ávamos", "áveis", "avam"],
+      "er": ["ia", "ias", "ia", "íamos", "íeis", "iam"],
+      "ir": ["ia", "ias", "ia", "íamos", "íeis", "iam"]
+    },
+    "mais_que_perfeito": {
+      "ar": ["ara", "aras", "ara", "áramos", "áreis", "aram"],
+      "er": ["era", "eras", "era", "êramos", "êreis", "eram"],
+      "ir": ["ira", "iras", "ira", "íramos", "íreis", "iram"]
+    },
+    "futuro": {
+      "ar": ["arei", "arás", "ará", "aremos", "areis", "arão"],
+      "er": ["erei", "erás", "erá", "eremos", "ereis", "erão"],
+      "ir": ["irei", "irás", "irá", "iremos", "ireis", "irão"]
+    },
+    "condicional": {
+      "ar": ["aria", "arias", "aria", "aríamos", "aríeis", "ariam"],
+      "er": ["eria", "erias", "eria", "eríamos", "eríeis", "eriam"],
+      "ir": ["iria", "irias", "iria", "iríamos", "iríeis", "iriam"]
+    }
   },
 
-  "perfeito": {
-    "ar": ["ei","aste","ou","amos","astes","aram"],
-    "er": ["i","este","eu","emos","estes","eram"],
-    "ir": ["i","iste","iu","imos","istes","iram"]
-  },
-
-  "imperfeito": {
-    "ar": ["ava","avas","ava","ávamos","áveis","avam"],
-    "er": ["ia","ias","ia","íamos","íeis","iam"],
-    "ir": ["ia","ias","ia","íamos","íeis","iam"]
-  },
-
-  "futuro": {
-    "all": ["ei","ás","á","emos","eis","ão"]
-  },
-
-  "condicional": {
-    "all": ["ia","ias","ia","íamos","íeis","iam"]
+  "subjuntivo": {
+    "presente": {
+      "ar": ["e", "es", "e", "emos", "eis", "em"],
+      "er": ["a", "as", "a", "amos", "ais", "am"],
+      "ir": ["a", "as", "a", "amos", "ais", "am"]
+    },
+    "preterito_imperfeito": {
+      "ar": ["asse", "asses", "asse", "ássemos", "ásseis", "assem"],
+      "er": ["esse", "esses", "esse", "êssemos", "êsseis", "essem"],
+      "ir": ["isse", "isses", "isse", "íssemos", "ísseis", "issem"]
+    },
+    "futuro": {
+      "ar": ["ar", "ares", "ar", "armos", "ardes", "arem"],
+      "er": ["er", "eres", "er", "ermos", "erdes", "erem"],
+      "ir": ["ir", "ires", "ir", "irmos", "irdes", "irem"]
+    }
   },
 
   "participio": {
