@@ -1,1 +1,48 @@
+{
+  "presente": {
+    "ser": ["sou","és","é","somos","sois","são"],
+    "estar": ["estou","estás","está","estamos","estais","estão"],
+    "ir": ["vou","vais","vai","vamos","ides","vão"],
+    "ter": ["tenho","tens","tem","temos","tendes","têm"],
+    "vir": ["venho","vens","vem","vimos","vindes","vêm"],
+    "ver": ["vejo","vês","vê","vemos","vedes","veem"],
+    "pôr": ["ponho","pões","põe","pomos","pondes","põem"],
+    "ler": ["leio","lês","lê","lemos","ledes","leem"],
 
+    "fazer": { "0": "faço", "2": "faz" },
+    "dizer": { "0": "digo", "2": "diz" },
+    "trazer": { "0": "trago", "2": "traz" },
+    "querer": { "2": "quer" },
+    "saber": { "0": "sei" },
+    "poder": { "0": "posso" },
+    "perder": { "0": "perco" },
+    "dormir": { "0": "durmo" },
+    "sentir": { "0": "sinto" },
+    "mentir": { "0": "minto" },
+    "servir": { "0": "sirvo" },
+    "cair": { "0": "caio" },
+    "sair": { "0": "saio" }
+  },
+
+  "perfeito": {
+    "ser": ["fui","foste","foi","fomos","fostes","foram"],
+    "estar": ["estive","estiveste","esteve","estivemos","estivestes","estiveram"],
+    "vir": ["vim","vieste","veio","viemos","viestes","vieram"],
+    "ter": ["tive","tiveste","teve","tivemos","tivestes","tiveram"],
+    "fazer": ["fiz","fizeste","fez","fizemos","fizestes","fizeram"],
+    "trazer": ["trouxe","trouxeste","trouxe","trouxemos","trouxestes","trouxeram"],
+    "saber": ["soube","soubeste","soube","soubemos","soubestes","souberam"],
+    "poder": ["pude","pudeste","pôde","pudemos","pudestes","puderam"],
+    "querer": ["quis","quiseste","quis","quisemos","quisestes","quiseram"],
+    "pôr": ["pus","puseste","pôs","pusemos","pusestes","puseram"]
+  },
+
+  "participio": {
+    "ver": "visto",
+    "fazer": "feito",
+    "dizer": "dito",
+    "pôr": "posto",
+    "abrir": "aberto",
+    "vir": "vindo"
+  }
+}
