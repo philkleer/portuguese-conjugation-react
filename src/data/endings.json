@@ -1,1 +1,33 @@
+{
+  "presente": {
+    "ar": ["o","as","a","amos","ais","am"],
+    "er": ["o","es","e","emos","eis","em"],
+    "ir": ["o","es","e","imos","is","em"]
+  },
 
+  "perfeito": {
+    "ar": ["ei","aste","ou","amos","astes","aram"],
+    "er": ["i","este","eu","emos","estes","eram"],
+    "ir": ["i","iste","iu","imos","istes","iram"]
+  },
+
+  "imperfeito": {
+    "ar": ["ava","avas","ava","ávamos","áveis","avam"],
+    "er": ["ia","ias","ia","íamos","íeis","iam"],
+    "ir": ["ia","ias","ia","íamos","íeis","iam"]
+  },
+
+  "futuro": {
+    "all": ["ei","ás","á","emos","eis","ão"]
+  },
+
+  "condicional": {
+    "all": ["ia","ias","ia","íamos","íeis","iam"]
+  },
+
+  "participio": {
+    "ar": "ado",
+    "er": "ido",
+    "ir": "ido"
+  }
+}
