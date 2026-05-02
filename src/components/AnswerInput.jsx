@@ -57,7 +57,7 @@ export default function AnswerInput({ hint, setHint, feedback, submitAnswer, con
         <div className={`feedback-card feedback-card--${feedback.correct ? 'correct' : 'wrong'}`}>
           {feedback.correct ? (
             <>
-              <p className="feedback-card__message">✅ Arrasou! A sua dica foi correta. 🚀</p>
+              <p className="feedback-card__message">✅ Arrasou! A sua resposta foi correta. 🚀</p>
               <div className="feedback-card__actions">
                 <button className="btn btn--success" onClick={() => confirmResult(true)}>
                   Joia! 👍🏾
