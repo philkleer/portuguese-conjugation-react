@@ -81,6 +81,25 @@ body {
   padding: var(--sp-lg) var(--sp-md);
 }
 
+/* ─── Top links ───────────────────────────────────────────────────────────── */
+.top-links {
+  display: flex;
+  justify-content: center;
+  gap: var(--sp-md);
+  margin-bottom: var(--sp-lg);
+  font-size: 1.3rem;
+  color: var(--clr-muted);
+}
+
+.top-links a {
+  color: var(--clr-muted);
+  transition: color 0.15s ease;
+}
+
+.top-links a:hover {
+  color: var(--clr-accent);
+}
+
 /* ─── HOME ────────────────────────────────────────────────────────────────── */
 .screen--home {
   justify-content: center;
@@ -216,11 +235,10 @@ body {
 }
 
 .training-main {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: var(--sp-xl);
+  padding-top: var(--sp-xl);
 }
 
 /* ─── Verb display ────────────────────────────────────────────────────────── */
@@ -294,6 +312,9 @@ body {
 .answer-input-row {
   display: flex;
   gap: var(--sp-sm);
+  max-width: 420px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .answer-input {
@@ -603,38 +624,4 @@ body {
     width: 100%;
     text-align: center;
   }
-}
-
-/* Top links */
-.top-links {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-
-  display: flex;
-  /* puts items in a row */
-  flex-direction: row;
-  /* explicit, though default */
-  align-items: center;
-  justify-content: flex-end;
-
-  gap: 10px;
-  /* space between icons */
-  z-index: 10;
-}
-
-.top-links a {
-  display: flex;
-  /* keeps icons centered inside */
-  align-items: center;
-  justify-content: center;
-
-  font-size: 18px;
-  color: inherit;
-  opacity: 0.7;
-}
-
-.top-links a svg {
-  width: 20px;
-  height: 20px;
 }
