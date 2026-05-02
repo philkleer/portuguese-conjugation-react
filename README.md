@@ -1,7 +1,7 @@
 
 # Portuguese Conjugation 🇧🇷
 
-This is an application to learn basic portuguese conjugation (brazilian variant). You can find the app online at [link to host](). The code is licensed with CC-BY-NC-SA 4.0 (see `license` file). If you want to add or support the development, just open an issue or merge request. 
+This is an application to learn basic portuguese conjugation (brazilian variant). You can find the app online at [vercel](https://conjugador-portugues.vercel.app/). The code is licensed with CC-BY-NC-SA 4.0 (see `license` file). If you want to add or support the development, just open an issue or merge request. 
 
 If you like this app, you can [buy me a coffee](https://buymeacoffee.com/bpkleerw).
 
