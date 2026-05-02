@@ -129,27 +129,28 @@ export default function App() {
   // ── Training view ──────────────────────────────────────────────────────────
   return (
     <div className="screen screen--training">
-      <TopLinks />
       <header className="training-header">
-        <button
-          className="btn btn--icon training-header__back"
-          onClick={() => setView('home')}
-          aria-label="Voltar"
-        >
-          ←
-        </button>
+        <div className="training-header__left">
+          <button
+            className="btn btn--icon training-header__back"
+            onClick={() => setView('home')}
+            aria-label="Voltar"
+          >
+            ←
+          </button>
+          <button
+            className="btn btn--icon training-header__options"
+            onClick={() => setView('settings')}
+            aria-label="Opções"
+          >
+            ⚙️
+          </button>
+        </div>
         <div className="training-header__score">
           <span className="score-badge__correct">✓ {exercise.score.correct}</span>
           <span className="score-badge__divider">/</span>
           <span className="score-badge__wrong">✗ {exercise.score.wrong}</span>
         </div>
-        <button
-          className="btn btn--icon training-header__options"
-          onClick={() => setView('settings')}
-          aria-label="Opções"
-        >
-          ⚙️
-        </button>
       </header>
 
       <main className="training-main">
@@ -162,6 +163,7 @@ export default function App() {
           confirmResult={exercise.confirmResult}
         />
       </main>
+      <TopLinks bottom />
     </div>
   );
 }

@@ -37,6 +37,7 @@
   --sp-md: 1.25rem;
   --sp-lg: 2rem;
   --sp-xl: 3rem;
+  --sp-xxl: 4rem;
 
   /* Radius */
   --radius-sm: 8px;
@@ -86,9 +87,17 @@ body {
   display: flex;
   justify-content: center;
   gap: var(--sp-md);
-  margin-bottom: var(--sp-lg);
+  margin-bottom: var(--sp-sm);
   font-size: 1.3rem;
   color: var(--clr-muted);
+}
+
+.top-links--bottom {
+  position: fixed;
+  bottom: var(--sp-md);
+  left: 0;
+  right: 0;
+  justify-content: center;
 }
 
 .top-links a {
@@ -217,7 +226,13 @@ body {
 /* ─── TRAINING ────────────────────────────────────────────────────────────── */
 .screen--training {
   padding-top: var(--sp-md);
+  padding-bottom: var(--sp-xxl);
   gap: var(--sp-lg);
+}
+
+.training-header__left {
+  display: flex;
+  gap: var(--sp-xs);
 }
 
 .training-header {
@@ -458,8 +473,8 @@ body {
 }
 
 .btn--icon {
-  background: transparent;
-  border: 1.5px solid var(--clr-border);
+  background: var(--clr-gold-lt);
+  border: 2.5px solid var(--clr-border);
   border-radius: var(--radius-sm);
   width: 2.4rem;
   height: 2.4rem;

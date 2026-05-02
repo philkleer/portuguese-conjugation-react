@@ -2,9 +2,9 @@
 
 import { FaGithub, FaBug, FaCoffee } from 'react-icons/fa';
 
-export default function TopLinks() {
+export default function TopLinks({ bottom }) {
     return (
-        <div className="top-links">
+        <div className={bottom ? 'top-links top-links--bottom' : 'top-links'}>
             <a
                 href="https://github.com/philkleer/portuguese-conjugation-react"
                 target="_blank"
