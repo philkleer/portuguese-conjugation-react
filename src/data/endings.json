@@ -1,59 +1,104 @@
-// all tenses without compostos (build via participio e auxiliar)
 {
+  "comment": "Ending arrays are indexed [1s, 2s, 3s, 1p, 2p, 3p] (pessoa 1-3 singular then 1-3 plural)",
+
+  "auxiliaries": {
+    "ppcHv":         ["tenho", "tens",     "tem",     "temos",     "tendes",    "têm"],
+    "pmqpHv":        ["tinha", "tinhas",   "tinha",   "tínhamos",  "tínheis",   "tinham"],
+    "futcomHv":      ["terei", "teras",    "terá",    "teremos",   "tereis",    "terão"],
+    "perfeitoSubHv": ["tenha", "tenhas",   "tenha",   "tenhamos",  "tenhais",   "tenham"],
+    "pmqpCompSubHv": ["tivesse","tivesses","tivesse", "tivéssemos","tívesseis", "tivessem"],
+    "futuroCompSubHv":["tiver", "tiveres", "tiver",   "tivermos",  "tiverdes",  "tiverem"],
+    "condIIHv":      ["teria", "terias",   "teria",   "teríamos",  "teríeis",   "teriam"]
+  },
+
+  "participios": {
+    "ar":    "ado",
+    "er":    "ido",
+    "ir":    "ido",
+    "air":   "ído",
+    "vir":   "indo",
+    "ver":   "visto",
+    "fazer": "feito",
+    "dizer": "dito",
+    "por":   "posto",
+    "abrir": "aberto"
+  },
+
   "indicativo": {
     "presente": {
-      "ar": ["o", "as", "a", "amos", "ais", "am"],
-      "er": ["o", "es", "e", "emos", "eis", "em"],
-      "ir": ["o", "es", "e", "imos", "is", "em"]
+      "ar":  ["o",  "as", "a",  "amos", "ais", "am"],
+      "er":  ["o",  "es", "e",  "emos", "eis", "em"],
+      "ir":  ["o",  "es", "e",  "imos", "is",  "em"],
+      "ear": ["io", "ias","ia", "amos", "ais", "iam"]
     },
-    "preterito_perfeito": {
-      "ar": ["ei", "aste", "ou", "amos", "astes", "aram"],
-      "er": ["i", "este", "eu", "emos", "estes", "eram"],
-      "ir": ["i", "iste", "iu", "imos", "istes", "iram"]
+    "perfeito": {
+      "ar":  ["ei",  "aste",  "ou",   "amos",   "astes",  "aram"],
+      "er":  ["i",   "este",  "eu",   "emos",   "estes",  "eram"],
+      "ir":  ["i",   "iste",  "iu",   "imos",   "istes",  "iram"],
+      "air": ["í",   "íste",  "iu",   "ímos",   "ístes",  "íram"]
     },
-    "preterito_imperfeito": {
-      "ar": ["ava", "avas", "ava", "ávamos", "áveis", "avam"],
-      "er": ["ia", "ias", "ia", "íamos", "íeis", "iam"],
-      "ir": ["ia", "ias", "ia", "íamos", "íeis", "iam"]
+    "imperfeito": {
+      "ar":  ["ava", "avas", "ava", "ávamos", "aveis", "avam"],
+      "er":  ["ia",  "ias",  "ia",  "íamos",  "íeis",  "iam"],
+      "ir":  ["ia",  "ias",  "ia",  "íamos",  "íeis",  "iam"],
+      "air": ["ía",  "ías",  "ía",  "íamos",  "íeis",  "íam"]
     },
-    "mais_que_perfeito": {
-      "ar": ["ara", "aras", "ara", "áramos", "áreis", "aram"],
-      "er": ["era", "eras", "era", "êramos", "êreis", "eram"],
-      "ir": ["ira", "iras", "ira", "íramos", "íreis", "iram"]
+    "pmqp": {
+      "common": ["a", "as", "a", "---", "---", "am"],
+      "ar":     ["---","---","---","áramos","áreis","---"],
+      "er":     ["---","---","---","êramos","êreis","---"],
+      "ir":     ["---","---","---","íramos","íreis","---"],
+      "er2":    ["---","---","---","iéramos","iéreis",""],
+      "ser":    ["---","---","---","ôramos","ôreis","---"]
     },
-    "futuro": {
-      "ar": ["arei", "arás", "ará", "aremos", "areis", "arão"],
-      "er": ["erei", "erás", "erá", "eremos", "ereis", "erão"],
-      "ir": ["irei", "irás", "irá", "iremos", "ireis", "irão"]
-    },
-    "condicional": {
-      "ar": ["aria", "arias", "aria", "aríamos", "aríeis", "ariam"],
-      "er": ["eria", "erias", "eria", "eríamos", "eríeis", "eriam"],
-      "ir": ["iria", "irias", "iria", "iríamos", "iríeis", "iriam"]
+    "futuroSimples": {
+      "regular": ["ei", "ás", "á", "emos", "eis", "ão"],
+      "irr":     ["rei","rás","rá","remos", "reis","rão"],
+      "por":     ["porei","porás","porá","poremos","poreis","porão"]
     }
   },
 
   "subjuntivo": {
     "presente": {
-      "ar": ["e", "es", "e", "emos", "eis", "em"],
-      "er": ["a", "as", "a", "amos", "ais", "am"],
-      "ir": ["a", "as", "a", "amos", "ais", "am"]
+      "ar":    ["e",  "es",  "e",  "emos", "eis",   "em"],
+      "erIr":  ["a",  "as",  "a",  "amos", "ais",   "am"],
+      "ear":   ["ie", "ies", "ie", "emos", "eis",   "iem"],
+      "serEstar": ["eja","ejas","eja","ejamos","ejaisa","ejam"],
+      "ira":   ["vá", "vás", "vá", "vamos","vades", "vão"]
     },
-    "preterito_imperfeito": {
-      "ar": ["asse", "asses", "asse", "ássemos", "ásseis", "assem"],
-      "er": ["esse", "esses", "esse", "êssemos", "êsseis", "essem"],
-      "ir": ["isse", "isses", "isse", "íssemos", "ísseis", "issem"]
+    "imperfeito": {
+      "common": ["sse","sses","sse","---",    "---",     "ssem"],
+      "ar":     ["---","---","---","ássemos","ásseis",   "---"],
+      "er":     ["---","---","---","êssemos","êsseis",   "---"],
+      "er2":    ["---","---","---","éssemos","ésseis",   "---"],
+      "ir":     ["---","---","---","íssemos","ísseis",   "---"],
+      "ser":    ["---","---","---","ôssemos","ôsseis",   "---"]
     },
     "futuro": {
-      "ar": ["ar", "ares", "ar", "armos", "ardes", "arem"],
-      "er": ["er", "eres", "er", "ermos", "erdes", "erem"],
-      "ir": ["ir", "ires", "ir", "irmos", "irdes", "irem"]
+      "regular": ["", "es", "", "mos", "des", "em"],
+      "air":     ["ir","íres","ir","irmos","irdes","írem"]
     }
   },
 
-  "participio": {
-    "ar": "ado",
-    "er": "ido",
-    "ir": "ido"
+  "condicional": {
+    "I":   ["ia", "ias", "ia", "íamos", "íeis", "iam"],
+    "Irr": ["ria","rias","ria","ríamos","ríeis", "riam"],
+    "por": ["poria","poria","poria","poríamos","poríeis","poriam"]
+  },
+
+  "partialIrregulars": {
+    "comment": "Arrays with --- mean those slots fall back to the regular ending; only overriding specific persons",
+    "presenteFazer":  ["faço","---","faz","---","---","---"],
+    "presenteDizer":  ["digo","---","diz","---","---","---"],
+    "presenteTrazer": ["trago","---","traz","---","---","---"],
+    "presenteQuerer": ["---","---","quer","---","---","---"],
+    "presenteDormir": ["durmo","---","---","---","---","---"],
+    "presenteEntir":  ["into","---","---","---","---","---"],
+    "presenteErvir":  ["irvo","---","---","---","---","---"],
+    "presenteAir":    ["aio","ais","ai","aímos","aís","aem"],
+    "presenteCer":    ["ço","---","---","---","---","---"],
+    "presenteSaber":  ["sei","---","---","---","---","---"],
+    "presentePoder":  ["posso","---","---","---","---","---"],
+    "presentePerder": ["perco","---","---","---","---","---"]
   }
 }

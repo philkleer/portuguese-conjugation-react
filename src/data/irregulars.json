@@ -1,59 +1,36 @@
 {
-  "indicativo": {
-    "presente": {
-      "ser": ["sou","és","é","somos","sois","são"],
-      "estar": ["estou","estás","está","estamos","estais","estão"],
-      "ir": ["vou","vais","vai","vamos","ides","vão"],
-      "ter": ["tenho","tens","tem","temos","tendes","têm"],
-      "vir": ["venho","vens","vem","vimos","vindes","vêm"],
-      "ver": ["vejo","vês","vê","vemos","vedes","veem"],
-      "pôr": ["ponho","pões","põe","pomos","pondes","põem"],
-      "ler": ["leio","lês","lê","lemos","ledes","leem"],
+  "comment": "Complete conjugation tables for verbs that cannot be derived from stem + ending. Indexed [1s, 2s, 3s, 1p, 2p, 3p].",
 
-      "fazer": { "0": "faço", "2": "faz" },
-      "dizer": { "0": "digo", "2": "diz" },
-      "trazer": { "0": "trago", "2": "traz" },
-      "querer": { "2": "quer" },
-      "saber": { "0": "sei" },
-      "poder": { "0": "posso" },
-      "perder": { "0": "perco" },
-      "dormir": { "0": "durmo" },
-      "sentir": { "0": "sinto" },
-      "mentir": { "0": "minto" },
-      "servir": { "0": "sirvo" },
-      "cair": { "0": "caio" },
-      "sair": { "0": "saio" }
-    },
-    "preterito_perfeito": {
-      "ser": ["fui","foste","foi","fomos","fostes","foram"],
-      "estar": ["estive","estiveste","esteve","estivemos","estivestes","estiveram"],
-      "vir": ["vim","vieste","veio","viemos","viestes","vieram"],
-      "ter": ["tive","tiveste","teve","tivemos","tivestes","tiveram"],
-      "fazer": ["fiz","fizeste","fez","fizemos","fizestes","fizeram"],
-      "trazer": ["trouxe","trouxeste","trouxe","trouxemos","trouxestes","trouxeram"],
-      "saber": ["soube","soubeste","soube","soubemos","soubestes","souberam"],
-      "poder": ["pude","pudeste","pôde","pudemos","pudestes","puderam"],
-      "querer": ["quis","quiseste","quis","quisemos","quisestes","quiseram"],
-      "pôr": ["pus","puseste","pôs","pusemos","pusestes","puseram"]
-    }
+  "presenteIndicativo": {
+    "ser":   ["sou",   "és",   "é",   "somos",  "sois",   "são"],
+    "estar": ["estou", "estás","está", "estamos","estais", "estão"],
+    "ira":   ["vou",   "vais", "vai",  "vamos",  "ides",   "vão"],
+    "vir":   ["venho", "vens", "vem",  "vimos",  "vindes", "vêm"],
+    "ver":   ["vejo",  "vês",  "vê",   "vemos",  "vedes",  "vêem"],
+    "ter":   ["tenho", "tens", "tem",  "temos",  "tendes", "têm"],
+    "ler":   ["leio",  "lês",  "lê",   "lemos",  "ledes",  "leem"],
+    "por":   ["ponho", "pões", "põe",  "pomos",  "pondes", "põem"]
   },
 
-  "subjuntivo": {
-    "presente": {
-      "ser": ["seja", "sejas", "seja", "sejamos", "sejais", "sejam"],
-      "estar": ["esteja", "estejas", "esteja", "estejamos", "estejais", "estejam"],
-      "ter": ["tenha", "tenhas", "tenha", "tenhamos", "tenhais", "tenham"],
-      "ir": ["vá", "vás", "vá", "vamos", "vades", "vão"]
-    }
+  "perfeitoIndicativo": {
+    "ser":    ["fui",    "foste",    "foi",   "fomos",    "fostes",    "foram"],
+    "ira":    ["fui",    "foste",    "foi",   "fomos",    "fostes",    "foram"],
+    "estar":  ["estive", "estiveste","esteve","estivemos","estivestes","estiveram"],
+    "vir":    ["vim",    "vieste",   "veio",  "viemos",   "viestes",   "vieram"],
+    "ter":    ["tive",   "tiveste",  "teve",  "tivemos",  "tivestes",  "tiveram"],
+    "fazer":  ["fiz",    "fizeste",  "fez",   "fizemos",  "fizestes",  "fizeram"],
+    "trazer": ["trouxe", "trouxeste","trouxe","trouxemos","trouxestes","trouxeram"],
+    "saber":  ["soube",  "soubeste", "soube", "soubemos", "soubestes", "souberam"],
+    "poder":  ["pude",   "pudeste",  "pôde",  "pudemos",  "pudestes",  "puderam"],
+    "querer": ["quis",   "quiseste", "quis",  "quisemos", "quisestes", "quiseram"],
+    "por":    ["pus",    "puseste",  "pôs",   "pusemos",  "pusestes",  "puseram"],
+    "dizer":  ["sse",    "sseste",   "sse",   "ssemos",   "ssestes",   "sseram"]
   },
 
-  "participio": {
-    "abrir": "aberto",
-    "fazer": "feito",
-    "dizer": "dito",
-    "ver": "visto",
-    "escrever": "escrito",
-    "pôr": "posto",
-    "vir": "vindo"
+  "imperfeitoIndicativo": {
+    "ser":  ["era",   "eras",   "era",   "éramos",  "éreis",  "eram"],
+    "vir":  ["vinha", "vinhas", "vinha", "vínhamos","vínheis","vinham"],
+    "ter":  ["tinha", "tinhas", "tinha", "tínhamos","tínheis","tinham"],
+    "por":  ["punha", "punhas", "punha", "púnhamos","púnheis","punham"]
   }
 }
