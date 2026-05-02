@@ -640,3 +640,11 @@ body {
     text-align: center;
   }
 }
+
+.score-badge__total {
+  color: var(--clr-muted);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}

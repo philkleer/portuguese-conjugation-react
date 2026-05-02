@@ -13,6 +13,8 @@ import VerbDisplay from './components/VerbDisplay.jsx';
 import AnswerInput from './components/AnswerInput.jsx';
 import useExercise from './hooks/useExercise.js';
 import TopLinks from './components/TopLinks.jsx';
+import { FaHashtag } from 'react-icons/fa';
+
 
 
 // ─── Default settings (mirrors UserSettings.init() in environmentVars.swift) ──
@@ -107,6 +109,10 @@ export default function App() {
             <span className="score-badge__correct">✓ {exercise.score.correct}</span>
             <span className="score-badge__divider">/</span>
             <span className="score-badge__wrong">✗ {exercise.score.wrong}</span>
+            <span className="score-badge__divider">/</span>
+            <span className="score-badge__total">
+              <FaHashtag /> {exercise.score.correct + exercise.score.wrong}
+            </span>
           </p>
         </footer>
       </div>
@@ -150,6 +156,10 @@ export default function App() {
           <span className="score-badge__correct">✓ {exercise.score.correct}</span>
           <span className="score-badge__divider">/</span>
           <span className="score-badge__wrong">✗ {exercise.score.wrong}</span>
+          <span className="score-badge__divider">/</span>
+          <span className="score-badge__total">
+            <FaHashtag /> {exercise.score.correct + exercise.score.wrong}
+          </span>
         </div>
       </header>
 
