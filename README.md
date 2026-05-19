@@ -10,7 +10,7 @@ Here you can see examples (Version: 1.0) of the screens:
 
 <img src="examples/view1.png" alt="start view" width="200"> <img src="examples/view2.png" alt="settings view" width="200"> <img src="examples/view3.png" alt="training view" width="200">
 
-<img src="examples/view4.png" alt="correct entry" width="200">  <img src="examples/example5.png" alt="wrong entry" width="200"> 
+<img src="examples/view4.png" alt="correct entry" width="200">  <img src="examples/view5.png" alt="wrong entry" width="200"> 
 
 ## Available conjugations
 
