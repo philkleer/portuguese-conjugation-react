@@ -105,12 +105,7 @@ export function pickTense(todos_tempos, lastTenses) {
     return { tense: 'Presente Indicativo', newLastTenses: [] };
   }
 
-  // With fewer than 3 options there is no meaningful history to keep.
-  if (todos_tempos.length < 3) {
-    return { tense: randomFrom(todos_tempos), newLastTenses: lastTenses };
-  }
-
-  const maxHistory = todos_tempos.length - Math.floor(todos_tempos.length / 3);
+  const maxHistory = todos_tempos.length - 1;
   const { choice, newHistory } = pickWithHistory(todos_tempos, lastTenses, maxHistory);
   return { tense: choice, newLastTenses: newHistory };
 }
@@ -135,7 +130,7 @@ export function buildVerbArray(settings) {
  * @returns {{ verb: string[], newLastVerbs: string[] }}
  */
 export function pickVerb(todos_verbos, lastVerbs) {
-  const maxHistory = todos_verbos.length - Math.floor(todos_verbos.length / 3);
+  const maxHistory = todos_verbos.length - Math.floor(todos_verbos.length * 4 / 5);
 
   // Build a parallel pool of infinitives for the history check.
   const infinitives = todos_verbos.map((v) => v[0]);
