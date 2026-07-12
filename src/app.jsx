@@ -104,17 +104,7 @@ export default function App() {
           </button>
         </main>
 
-        <footer className="home-footer">
-          <p className="score-badge">
-            <span className="score-badge__correct">✓ {exercise.score.correct}</span>
-            <span className="score-badge__divider">/</span>
-            <span className="score-badge__wrong">✗ {exercise.score.wrong}</span>
-            <span className="score-badge__divider">/</span>
-            <span className="score-badge__total">
-              <FaHashtag /> {exercise.score.correct + exercise.score.wrong}
-            </span>
-          </p>
-        </footer>
+
       </div>
     );
   }
